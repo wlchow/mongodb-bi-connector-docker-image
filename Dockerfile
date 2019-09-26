@@ -1,6 +1,6 @@
 FROM ubuntu:xenial
 
-# Allow build-time overrides (eg. to build image with MongoDB Enterprise version)
+# Allow build-time overrides (eg. to build image with a specific MongoDB BIC version)
 # Example: docker build --build-arg MONGO_BIC_VERSION=2.12.0
 ARG MONGO_BIC_VERSION=2.12.0
 ENV MONGO_BIC_VERSION=${MONGO_BIC_VERSION}
