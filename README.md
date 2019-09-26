@@ -5,7 +5,7 @@
 This builds a docker image with Ubuntu 16.04 x64 (xenial) with the MongoDB BI Connector version 2.11.0 (default) installed.
 The BI Connector Downloads are here: https://www.mongodb.com/download-center/bi-connector/releases
 
-To build the Docker "mmongodb-bi-connector" image, follow these steps:
+To build the Docker "mongodb-bi-connector" image, follow these steps:
 
 #### 1) Install [Docker](https://docs.docker.com/install/) locally on your own workstation/laptop.
 
