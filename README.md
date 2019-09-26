@@ -13,12 +13,12 @@ To build the Docker "mmongodb-bi-connector" image, follow these steps:
 
 #### 3) From a command line shell, to build it using the default BI Connector version 2.11.0, just run:
 ```
-$docker build -t wchow/mongodb-bi-connector:2.12 .
+$ docker build -t wchow/mongodb-bi-connector:2.12 .
 ```
 
 Or if you prefer a specifc BI Connector version then use the build argument MONGO_BIC_VERSION with the version number. For example, to build with version 2.11.1
 ```
-docker build -t wchow/mongodb-bi-connector:2.11.1 --build-arg MONGO_BIC_VERSION=2.11.1 .
+$ docker build -t wchow/mongodb-bi-connector:2.11.1 --build-arg MONGO_BIC_VERSION=2.11.1 .
 ```
 
 #### 4) Once the image is generated, you can also quickly test the image by running it in a Docker container on your local machine 
