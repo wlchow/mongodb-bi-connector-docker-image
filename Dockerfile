@@ -14,6 +14,7 @@ RUN set -ex; \
 	; \
         wget -O mongodb-bi-linux-x86_64-ubuntu1604-v${MONGO_BIC_VERSION}.tgz "https://info-mongodb-com.s3.amazonaws.com/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu1604-v${MONGO_BIC_VERSION}.tgz"; \
         tar -xvzf mongodb-bi-linux-x86_64-ubuntu1604-v${MONGO_BIC_VERSION}.tgz; \
+        rm mongodb-bi-linux-x86_64-ubuntu1604-v${MONGO_BIC_VERSION}.tgz; \
         install -m755 mongodb-bi-linux-x86_64-ubuntu1604-v${MONGO_BIC_VERSION}/bin/mongo* /usr/local/bin/
 
 EXPOSE 3307
